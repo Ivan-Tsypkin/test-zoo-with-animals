@@ -1,0 +1,38 @@
+.page {
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: azure;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.main {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-left: 200px;
+}
+
+@media screen and (max-width: 780px) {
+  .page {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+  }
+}

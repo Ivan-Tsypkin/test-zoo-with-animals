@@ -1,0 +1,35 @@
+.button {
+  padding: 5px 15px;
+  background-color: #4B51EF;
+  border: none;
+  border-radius: 10px;
+  color: #FFFFFF;
+  transition: opacity 0.2s linear;
+  width: max-content;
+  height: 25px;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.button__catch {
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  font-weight: 800;
+  font-size: 36px;
+  height: fit-content;
+}
+
+@media screen and (max-width: 780px) {
+  .button__catch {
+    position: static;
+  }
+}
+
+.button__animal-control {
+  font-weight: 800;
+  font-size: 12px;
+}
