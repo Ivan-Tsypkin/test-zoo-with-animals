@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test-zoo-with-animals/static/css/main.f205eb88.css",
+    "main.js": "/test-zoo-with-animals/static/js/main.f9e2feb3.js",
+    "static/media/cheetah.jpg": "/test-zoo-with-animals/static/media/cheetah.47f1d20a43aff66b2268.jpg",
+    "static/media/hippo.jpg": "/test-zoo-with-animals/static/media/hippo.944f6f88deb83c6b51d1.jpg",
+    "index.html": "/test-zoo-with-animals/index.html",
+    "main.f205eb88.css.map": "/test-zoo-with-animals/static/css/main.f205eb88.css.map",
+    "main.f9e2feb3.js.map": "/test-zoo-with-animals/static/js/main.f9e2feb3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f205eb88.css",
+    "static/js/main.f9e2feb3.js"
+  ]
+}
